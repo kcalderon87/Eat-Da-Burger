@@ -11,7 +11,7 @@ var connection = mysql.createConnection({
 	host: 'wp433upk59nnhpoh.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
 	user: 'q45xf8ldoxnxaohi',
 	password: 'maelcjxw274v6i2x',
-	database: 'burgers_db'
+	//database: 'burgers_db'
 })
 
 connection.connect(function(err) {
