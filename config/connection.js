@@ -1,9 +1,9 @@
 var mysql = require('mysql');
 
 // var connection = mysql.createConnection({
-// 	host: 'mysql4.gear.host',
+// 	host: 'localhost',
 // 	user: 'root',
-// 	password: 'process.env.PASS',
+// 	password: '',
 // 	database: 'burgers_db'
 // })
 

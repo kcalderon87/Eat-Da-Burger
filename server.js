@@ -52,6 +52,12 @@ app.post('/update', function(req,res) {
     res.redirect('/update', {notEaten: data});
   }
 
+app.post('/update', function(req, res) {
+    orm.devourBurger(req.body.id, function(data) {
+            res.redirect('/');
+        })
+
+    });
 
 })
 //static content
